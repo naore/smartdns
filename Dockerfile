@@ -8,7 +8,7 @@ ADD config.conf /config.conf
 RUN wget https://github.com/pymumu/smartdns/releases/download/$VERSION/smartdns-x86_64 \
   && mv smartdns-x86_64 /bin/smartdns \
   && chmod +x /bin/smartdns \
-  && chmod +x /start.sh \
+  && chmod +x /start.sh 
   
 USER root
 
